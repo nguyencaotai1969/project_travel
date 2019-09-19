@@ -1,12 +1,25 @@
-
-<link rel="stylesheet" type="text/css" href="{{asset('css/login/login.css')}}">	
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>login</title>
+	   <link REL="SHORTCUT ICON" HREF="{{asset('img/logo.png')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('css/login/login.css')}}">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
 <div class="login-wrap">
-
 	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 	<div class="login-html">
-				<a href="{{asset('trangchu')}}" title=""><i class="fas fa-home"></i></a>
-		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Đăng Nhập</label>
-		<input id="tab-2" type="radio" name="tab" class="for-pwd"><label for="tab-2" class="tab">Đăng Kí</label>
+				<a href="{{asset('trangchu')}}" data-toggle="tooltip" title="Về Trang Chủ"><i class="fas fa-home"></i></a>&nbsp;&nbsp;
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab cursor">Đăng Nhập</label>
+		<input id="tab-2" type="radio" name="tab" class="for-pwd"><label for="tab-2" class="tab cursor">Đăng Kí</label>
 		<div class="login-form">
 			<form method="" action="">
 				<div class="sign-in-htm">
@@ -56,6 +69,10 @@
 <source src="{{asset('img/cauvang.mp4')}}" type="video/mp4"/>
 
 </video>
-
+<script src="{{asset('js/js_home.js')}}">
+</script>
+<script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
+</body>
+</html>
 
 

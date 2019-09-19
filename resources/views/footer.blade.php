@@ -1,18 +1,9 @@
 
 <link href="https://fonts.googleapis.com/css?family=Baloo|Baloo+Paaji|Charm|IBM+Plex+Serif|Lobster|Pattaya|Playfair+Display&display=swap" rel="stylesheet">
 <style type="text/css" media="screen">
-    footer{background-color: #2d51a3;
-            color: white;font-family: 'IBM Plex Serif', serif;}
-    footer .container{padding-top: 25px;}
-    footer b{color: white;
-            }
-    footer li{color: white;
-            }
-    footer a{text-decoration: none;
-            color: white;
-            }
+    
 </style>
-<footer id="footer">
+<footer id="footer-1">
     <div class="container">
         <div class="row text-left text-xs-center text-md-left mt-sm-6 p-4">
 

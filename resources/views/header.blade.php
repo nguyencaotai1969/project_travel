@@ -17,7 +17,7 @@
                 <a class="nav-link tintuc" href="{{route('tintuc')}}"><i class="fas fa-book-open"></i>&nbsp;Tin Tức</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link gioithieu" href="#"><i class="fas fa-crown"></i>&nbsp;Giới Thiệu</a>
+                <a class="nav-link gioithieu" href="{{route('gioithieu')}}"><i class="fas fa-crown"></i>&nbsp;Giới Thiệu</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link lienhe" href="{{route('lienhe')}}"><i class="far fa-address-book"></i>&nbsp;Liên Hệ</a>

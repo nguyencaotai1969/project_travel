@@ -20,7 +20,7 @@ Route::get('/lienhe',function(){
 	return view('page.lienhe');
 })->name('lienhe');
 Route::get('/chitiet',function(){
-	return view('page.chitiet');
+	return view('page.chitiettintuc');
 })->name('chitiet');
 
 // Gắn link vào danh sách điểm đến cuối trang chủ
@@ -32,3 +32,6 @@ Route::get('/diem-den',function(){
 Route::get('/danh-sach-tour',function(){
 	return view('tour.ds-tour');
 })->name('dstour');
+Route::get('/gioithieu',function(){
+	return view('page.gioithieu');
+})->name('gioithieu');
