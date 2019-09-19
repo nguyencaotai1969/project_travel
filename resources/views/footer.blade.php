@@ -1,4 +1,4 @@
-<div class="social-btn" style="position: fixed; left: 10px; bottom: 10px; width: 60px; opacity: 1;">
+<div class="social-btn">
     <a title="Call" href="tel:0927151535"><img src="https://cdn.autoads.asia/content/images/widget_icon_click_to_call.svg" alt=""></a>
 </div>
 <section id="footer">

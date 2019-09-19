@@ -68,8 +68,10 @@
                 </div>
             </div>
             <div class="col-md-4">
+                <h3 class="btn-primary">Tin Tức Cùng Chủ Đề</h3>
                 <div class="row mb-3">
                         <div class="col-md-12">
+
                             <div class="card">
                                 <div class="card-body caption">
                                 <img class="img-fluid" src="https://travel.com.vn/Images/destination/tf_180319041447_432403.jpg" alt="">
