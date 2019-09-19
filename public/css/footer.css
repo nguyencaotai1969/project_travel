@@ -72,3 +72,6 @@ section .section-title {
 .sec-sub-footer{
     background:white;
 }
+.social-btn{
+position: fixed; left: 10px; bottom: 10px; width: 60px; opacity: 1;
+}
