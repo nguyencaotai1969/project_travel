@@ -1,3 +1,13 @@
+footer{background-color: #2d51a3;
+            color: white;font-family: 'IBM Plex Serif', serif;}
+    footer .container{padding-top: 25px;}
+    footer b{color: white;
+            }
+    footer li{color: white;
+            }
+    footer a{text-decoration: none;
+            color: white;
+            }
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 section .section-title {

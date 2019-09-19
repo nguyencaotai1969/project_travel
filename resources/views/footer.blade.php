@@ -1,59 +1,52 @@
-<div class="social-btn">
-    <a title="Call" href="tel:0927151535"><img src="https://cdn.autoads.asia/content/images/widget_icon_click_to_call.svg" alt=""></a>
-</div>
-<section id="footer">
+
+<link href="https://fonts.googleapis.com/css?family=Baloo|Baloo+Paaji|Charm|IBM+Plex+Serif|Lobster|Pattaya|Playfair+Display&display=swap" rel="stylesheet">
+<style type="text/css" media="screen">
+    
+</style>
+<footer id="footer-1">
     <div class="container">
         <div class="row text-left text-xs-center text-md-left mt-sm-6 p-4">
 
-            <div class=" col-md-4">
+            <div class=" col-md-5">
                 <div>
-                    <img src="{{asset('img/logo.png')}}" width="250" height="70"alt="">
+                    <img style="background-color: white" src="{{asset('img/logo.png')}}" width="250" height="70"alt="">
                 </div><br>
                 <ul class="list-unstyled quick-links">
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Trụ Sở Chính : <b>43 Phạm Văn Đồng,Đống Đa, Hà Nội</b></a></li>
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hà Nội : <b>28 Phạm Ngọc Thạch, Thanh Xuân, Hà Nội</b></a></li>
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Đà Nẵng :<b> 45 Phạm Văn Trường, Đà Nẵng</b></a></li>
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hồ Chí Minh : <b>46/45 Quận 7 ,Hồ Chí Minh</b></a></li>
-
+                    <li><b>Trụ Sở Chính </b>: 10 Phạm Ngọc Thạch, Đống Đa, Hà Nội</li>
+                    <li><b>Hà Nội</b> : 28 Vũ Trọng Phụng, Thanh Xuân, Hà Nội</li>
+                    <li><b>Đà Nẵng</b> : 45 Phạm Văn Trường, Đà Nẵng</li>
+                    <li><b>Hồ Chí Minh</b> : 58 Pasteur, Phường 6, Quận 3</li>
+                    
                 </ul>
             </div>
-            <div class=" col-md-4">
+            <div class=" col-md-3">
                 <h5>Thông Tin Liên Hệ</h5>
                 <ul class="list-unstyled quick-links">
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>SĐT: 0123456789 / 012346789
-
-                        </a></li>
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Email: abc@gmail.com
-
-                        </a></li>
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Website: abcxyz.com
-
-                        </a></li>
-                    <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Điều Khoản Quy Định Của Công ty</a></li>
-                    <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Chính Sách Bảo Mật Của Công Ty</a></li>
+                    <li><a href="">Giới thiệu</a></li>  
+                    <li><a href="javascript:void();">Tin tức</a></li>
+                    <li><a href="javascript:void();">Điều khoản</a></li>
+                    <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by">Chính Sách Bảo Mật</a></li>
+                    <li><i class="fas fa-phone-volume"></i>  0123456789 / 012346789</li>
+                    <li><i class="far fa-envelope"></i>  abc@gmail.com</li>
+                    <li><i class="fas fa-desktop"></i> <a href="javascript:void();"> abcxyz.com</a></li>    
+                </ul>                       
             </div>
-            <div class="col-md-4">
-                <h5>Thanh Toán An Toàn
-                </h5>
-                <ul class="list-unstyled quick-links">
-                    <li>
-                    <li><a href="javascript:void();"><b>Thanh Toán Online</b>
-
-                        </a></li>
-                    <li>
-                        <a href="" title="">
-                            <b><img  src="{{asset('img/onpay.jpg')}}" alt=""></b>
-                            <b><img src="{{asset('img/jcb.jpg')}}" alt=""></b>
-                            <b><img src="{{asset('img/visa.jpg')}}" alt=""></b>
-                            <b><img src="{{asset('img/abcb.jpg')}}" alt=""></b>
-                        </a>
-                    </li>
-                    </li>
-                    <li><a href="javascript:void();"><b>Các Hệ Thống Ngân Hàng</b>
-
-                        </a></li>
-                    <li><a href="javascript:void();"><img src="https://tourdulich.org.vn/images/icon_bank.png" alt="">
-                        </a></li>
+            <div class="col-md-4">                      
+                <h5>Thanh Toán An Toàn</h5>
+                <ul class="list-unstyled quick-links">          
+                    <li>                    
+                        <li><b>Thanh Toán Online</b></li>                       
+                        <li>
+                            <a href="" title="">
+                                <b><img  src="{{asset('img/onpay.jpg')}}" alt=""></b>
+                                <b><img src="{{asset('img/jcb.jpg')}}" alt=""></b>
+                                <b><img src="{{asset('img/visa.jpg')}}" alt=""></b>
+                                <b><img src="{{asset('img/abcb.jpg')}}" alt=""></b>               
+                            </a>                        
+                        </li>
+                    </li><br>
+                    <li><b>Các Hệ Thống Ngân Hàng</b></li>
+                    <li><a href="javascript:void();"><img src="https://tourdulich.org.vn/images/icon_bank.png" alt=""></a></li>
                 </ul>
             </div>
         </div><hr>
@@ -68,17 +61,17 @@
                 </ul>
             </div>
             </hr>
-        </div>
-
+        </div>  
+        
+        <section class="container-fluid sec-sub-footer">
+            
+                <div class="row text-center">
+                    <div class="col">
+                        <span>Copy © 2019 <b> Copyright</b>: Travel</span>
+                    </div><!--.col-->
+                    
+                </div><!--.row-->
+            
+        </section>          
     </div>
-    <section class="container-fluid sec-sub-footer">
-
-        <div class="row text-center">
-            <div class="col">
-                <span>© 2019 <b> Copyright</b>: Nguyễn Cao Tài</span>
-            </div><!--.col-->
-
-        </div><!--.row-->
-
-    </section>
-</section>
+</footer>

@@ -26,14 +26,13 @@
     .search-sec{
         z-index: 99;
         position: relative;
-         margin-top: -144px;
+         margin-top: -145px;
         background: rgba(26, 70, 104, 0.51);
     }
 }
 
 @media (max-width: 992px){
     .search-sec{
-        margin-top: -59px;
         background: #1A4668;
     }
 }
