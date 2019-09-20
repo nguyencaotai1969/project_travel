@@ -1,3 +1,13 @@
+footer{background-color: #2d51a3;
+            color: white;font-family: 'IBM Plex Serif', serif;}
+    footer .container{padding-top: 25px;}
+    footer b{color: white;
+            }
+    footer li{color: white;
+            }
+    footer a{text-decoration: none;
+            color: white;
+            }
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 section .section-title {
@@ -73,6 +83,7 @@ section .section-title {
     background:white;
 }
 .social-btn{
+<<<<<<< HEAD
 position: fixed;
  left: 10px; 
  bottom: 10px;
@@ -84,3 +95,7 @@ z-index: 99;
     margin-left:20px;
     color: red;
 }
+=======
+position: fixed; left: 10px; bottom: 10px; width: 60px; opacity: 1;
+}
+>>>>>>> e3a85e8bdb4d942d650f5c34685961648f2e6899
