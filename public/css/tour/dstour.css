@@ -1,3 +1,15 @@
+.dulich {
+    color: #310bff !important;
+    border-bottom: 1px solid #310bff !important;
+}
+@media (min-width: 992px){
+    .search-sec{
+        z-index: 99;
+        position: relative;
+         margin-top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
 .container{margin: 0 auto;}
    .ds-tour{margin-top: 70px !important;}
 	#content{font-family: 'IBM Plex Serif', serif;}

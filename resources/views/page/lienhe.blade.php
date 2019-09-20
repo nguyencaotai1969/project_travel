@@ -2,28 +2,9 @@
 @section('title','Liên Hệ')
 <link rel="stylesheet" type="text/css" href="{{asset('css/lienhe/lienhe.css')}}">
 @section('content')
-	<div class="container infor-tour">
-		<h2 class="text-center tour-gio-vang">Thông tin tour</h2>
-		<div class="row">
-			<div class="col-md-4">
-				<img class="" src="https://travel.com.vn/Images/destination/tf_160909092754_635463.jpg" width="360" height="240">
-			</div>
-			<div class="col-md-8">
-				<h5>Tour du lịch Hà Nội - Hạ Long 2 ngày 1 đêm - Du ngoại cảnh 
-                    đẹp kì quan thiên nhiên Thế Giới
-				</h5>
-				
-				  <p> Mã: MB0902</p>
-				   <p>Thời gian: 2 ngày 3 đêm</p>
-				   <p>Khởi hành: Hà Nội - 10/9/2019</p>
-				   <p>Số Chỗ còn: 5</p>
-				  <p> Giá: <b>2.100.000đ</b></p>
-				
-			</div>
-		</div>
-	</div>
+	
 		<section>
-		  <div class="container">
+		  <div class="container infor-tour">
 		    <div class="well well-sm">
 		      <h3><strong>Bản Đồ</strong></h3>
 		    </div>

@@ -5,7 +5,10 @@
 <link rel="stylesheet" type="text/css" href="{{asset('css/trangchu/trangchu.css')}}">
 
 <div class="container">
-     <h2 class="text-center tour-gio-vang">Tour Giờ Vàng Giá Sốc</h2>
+     <div class="text-center tour-gio-vang">
+        <h2>Tour Giờ Vàng Giá Sốc</h2>
+         <p>Giờ Vàng Giá Ưu Đãi</p>
+     </div>
     <div class="row">
         
         <div class="new-arrival">
@@ -32,7 +35,7 @@
                                 <div class="col-md-3 col-sm-3 col-xs-3">
                                     <div class="product-grid">
                                         <div class="product-image">
-                                            <a href="#">
+                                            <a href="{{route('chitiettour')}}">
                                                 <img class="pic-1"
                                                      src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 <img class="pic-2"
@@ -54,7 +57,7 @@
                                             <li class="fa fa-star disable"></li>
                                         </ul>
                                         <div class="product-content">
-                                            <h3 class="title"><a href="#">Tour Đà Lạc<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
+                                            <h3 class="title"><a href="{{route('chitiettour')}}">Tour Đà Lạc<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
                                             <div class="price">1,000,000đ
                                                 <span>2,000,000đ</span>
                                             </div>
@@ -64,7 +67,7 @@
                                 <div class="col-md-3 col-sm-3 col-xs-3">
                                     <div class="product-grid">
                                         <div class="product-image">
-                                            <a href="#">
+                                            <a href="{{route('chitiettour')}}">
                                                 <img class="pic-1"
                                                      src="https://travel.com.vn/Content/ThemeHe/img/dd2.jpg">
                                                 <img class="pic-2"
@@ -86,7 +89,7 @@
                                             <li class="fa fa-star disable"></li>
                                         </ul>
                                         <div class="product-content">
-                                            <h3 class="title"><a href="#">Tour Cao Bằng <img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
+                                            <h3 class="title"><a href="{{route('chitiettour')}}">Tour Cao Bằng <img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
                                             <div class="price">1,000,000đ
                                                 <span>2,000,000đ</span>
                                             </div>
@@ -96,7 +99,7 @@
                                 <div class="col-md-3 col-sm-3 col-xs-3">
                                     <div class="product-grid">
                                         <div class="product-image">
-                                            <a href="#">
+                                            <a href="{{route('chitiettour')}}">
                                                 <img class="pic-1"
                                                      src="https://www.travelvietnam.com.vn/images/tour/items/img1/at_nam-phi-johannesburg-pretoria-sun-city-cape-town-khoi-hanh-tu-ha-noi_4daa3c0bba8f501d8d7d7b31dff8939d.png">
                                                 <img class="pic-2"
@@ -118,7 +121,7 @@
                                             <li class="fa fa-star  disable"></li>
                                         </ul>
                                         <div class="product-content">
-                                            <h3 class="title"><a href="#">Tour Hải Phòng<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
+                                            <h3 class="title"><a href="{{route('chitiettour')}}">Tour Hải Phòng<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
                                             <div class="price">1,000,000đ
                                                 <span>2,000,000đ</span>
                                             </div>
@@ -129,7 +132,7 @@
                                 <div class="col-md-3 col-sm-3 col-xs-3">
                                     <div class="product-grid">
                                         <div class="product-image">
-                                            <a href="#">
+                                            <a href="{{route('chitiettour')}}">
                                                 <img class="pic-1"
                                                      src="https://www.travelvietnam.com.vn/images/tour/items/img1/at_nam-phi-johannesburg-pretoria-sun-city-cape-town-khoi-hanh-tu-ha-noi_4daa3c0bba8f501d8d7d7b31dff8939d.png">
                                                 <img class="pic-2"
@@ -151,7 +154,7 @@
                                             <li class="fa fa-star disable"></li>
                                         </ul>
                                         <div class="product-content">
-                                            <h3 class="title"><a href="#">Tour Bắc Bộ<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
+                                            <h3 class="title"><a href="{{route('chitiettour')}}">Tour Bắc Bộ<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
                                             <div class="price">1,000,000đ
                                                 <span>2,000,000đ</span>
                                             </div>
@@ -167,7 +170,7 @@
                                         <div class="col-md-3 col-sm-3 col-xs-3">
                                             <div class="product-grid">
                                                 <div class="product-image">
-                                                    <a href="#">
+                                                    <a href="{{route('chitiettour')}}">
                                                         <img class="pic-1"
                                                              src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         <img class="pic-2"
@@ -189,7 +192,7 @@
                                                     <li class="fa fa-star disable"></li>
                                                 </ul>
                                                 <div class="product-content">
-                                                    <h3 class="title"><a href="#">Tour Đà Lạc<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
+                                                    <h3 class="title"><a href="{{route('chitiettour')}}">Tour Đà Lạc<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
                                                     <div class="price">1,000,000đ
                                                         <span>2,000,000đ</span>
                                                     </div>
@@ -199,7 +202,7 @@
                                          <div class="col-md-3 col-sm-3 col-xs-3">
                                             <div class="product-grid">
                                                 <div class="product-image">
-                                                    <a href="#">
+                                                    <a href="{{route('chitiettour')}}">
                                                         <img class="pic-1"
                                                              src="https://travel.com.vn/Content/ThemeHe/img/dd2.jpg">
                                                         <img class="pic-2"
@@ -221,7 +224,7 @@
                                                     <li class="fa fa-star disable"></li>
                                                 </ul>
                                                 <div class="product-content">
-                                                    <h3 class="title"><a href="#">Tour Cao Bằng<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
+                                                    <h3 class="title"><a href="{{route('chitiettour')}}">Tour Cao Bằng<img src="{{asset('img/hot.gif')}}" alt=""></a></h3>
                                                     <div class="price">1,000,000đ
                                                         <span>2,000,000đ</span>
                                                     </div>
@@ -329,7 +332,7 @@
                 <div class="ad-title m-auto">
                     <h5>Phú Quốc</h5>
                 </div>
-                <a class="ad-btn" href="#">Xem</a>
+                <a class="ad-btn" href="{{route('chitiettour')}}">Xem</a>
             </div>
         </div>
     </div>
@@ -348,7 +351,7 @@
                 <div class="ad-title m-auto">
                     <h5>Phú Quốc</h5>
                 </div>
-                <a class="ad-btn" href="#">Xem</a>
+                <a class="ad-btn" href="{{route('chitiettour')}}">Xem</a>
             </div>
         </div>
     </div>
@@ -368,7 +371,7 @@
                 <div class="ad-title m-auto">
                     <h5>Đà Lạt</h5>
                 </div>
-                <a class="ad-btn" href="#">Xem</a>
+                <a class="ad-btn" href="{{route('chitiettour')}}">Xem</a>
             </div>
         </div>
     </div>
@@ -378,11 +381,7 @@
 
 {{-- Điểm Đến Yêu Thích --}}
 <section class="our-webcoderskull padding-lg">
-         <div class="text-center tour-gio-vang">
-        <h2>Điểm Đến Yêu Thích Của Bạn</h2>
-         <p >Các điểm đến du lịch trong nước và nước ngoài
-        </p>
-         </div>
+        <h2 class="text-center tour-gio-vang">Điểm Đến Yêu Thích Của Bạn</h2>
   <div class="container">
     <ul class="row">
       <li class="col-12 col-md-6 col-lg-3">
@@ -392,7 +391,7 @@
             </figure>
             
             <ul class="follow-us clearfix">
-              <li><a href="#"><h3>Nguyễn Cao Tài</h3></a></li>
+              <li><a href="{{route('diemden')}}"><h3>Nguyễn Cao Tài</h3></a></li>
               
             </ul>
           </div>
@@ -403,7 +402,7 @@
               <img src="https://dulichviet.com.vn/images/bandidau/images/NOI-DIA/du-lich-trong-nuoc-hanh-trinh-di-san-mien-trung-2017.png" class="img-responsive" alt=""></figure>
             
             <ul class="follow-us clearfix">
-              <li><a href="#"><h3>Hội An</h3></a></li>
+              <li><a href="{{route('diemden')}}"><h3>Hội An</h3></a></li>
              
             </ul>
           </div>
@@ -413,7 +412,7 @@
             <figure><img src="https://dulichviet.com.vn/images/bandidau/images/NOI-DIA/tour-trong-nuoc-tour-miet-vuon-mien-tay_du-lich-viet.png" class="img-responsive" alt=""></figure>
             
             <ul class="follow-us clearfix">
-              <li><a href="#"><h3>Hội An</h3></a></li>
+              <li><a href="{{route('diemden')}}"><h3>Hội An</h3></a></li>
              
             </ul>
           </div>
@@ -423,7 +422,7 @@
             <figure><img src="https://dulichviet.com.vn/images/bandidau/images/NOI-DIA/tour-trong-nuoc-tour-miet-vuon-mien-tay_du-lich-viet.png" class="img-responsive" alt=""></figure>
             
             <ul class="follow-us clearfix">
-              <li><a href="#"><h3>Hội An</h3></a></li>
+              <li><a href="{{route('diemden')}}"><h3>Hội An</h3></a></li>
               
             </ul>
           </div>
@@ -436,10 +435,7 @@
 
 
 <div class="container">
-         <div class="text-center tour-gio-vang">
-             <h2 >Đối Tác Của Chúng Tôi</h2>
-             <p>Hợp Tác Cùng Phát Triển</p>
-         </div>
+             <h2 class="text-center tour-gio-vang">Đối Tác Của Chúng Tôi</h2>
    <section class="customer-logos-ourcarosel slider">
       <div class="slide"><img src="http://cdn07.happymobile.vn/media/images/2018/01/y-nghia-logo-samsung-2.jpg"></div>
       <div class="slide"><img src="https://thietkelogo.vn/wp-content/uploads/2017/10/logo-21.jpg"></div>

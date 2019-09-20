@@ -297,7 +297,7 @@ h3.h3 {
 
 }
 .tour-gio-vang {
-    color: yellow ;
+    color: #1000ff;
     padding: 20px;
     margin-bottom: 37px;
 }
@@ -308,7 +308,8 @@ h3.h3 {
     position: absolute;
     margin: 0 auto;
     height: 3px;
-    background: rgba(255, 0, 82, 0.2);
+    border-radius: 35%;
+    background: rgba(0, 43, 255, 0.78);
     left: 0;
     right: 0;
     bottom: 11px;

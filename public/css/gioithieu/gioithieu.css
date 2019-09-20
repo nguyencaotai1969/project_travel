@@ -7,8 +7,8 @@ border-bottom: 1px solid #310bff !important;
     background:#332d2d;
 }
 .how-section1{
-    margin-top:-12px;
-    padding: 10%;
+    margin-top:64px;
+    padding: 2%;
 }
 .how-section1 h4{
     color: #ffa500;
@@ -24,9 +24,7 @@ border-bottom: 1px solid #310bff !important;
 {
     text-align: center;
 }
-.how-img img{
-    width: 66%;
-}
+
 
   @media (max-width: 700px) {
       .how-section1{
