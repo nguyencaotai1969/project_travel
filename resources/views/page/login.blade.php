@@ -25,11 +25,11 @@
 				<div class="sign-in-htm">
 				<div class="group">
 					<label for="user" class="label">Tên Tài Khoản</label>
-					<input id="user" type="text" class="input">
+					<input id="user" type="text" class="input" placeholder="Tên Tài Khoản">
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Mật Khẩu</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<input id="pass" type="password" class="input" data-type="password" placeholder="Mật Khẩu">
 				</div>
 				<div class="group">
 					<input type="submit" class="button" value="Login">
@@ -41,19 +41,19 @@
 				<div class="for-pwd-htm">
 				<div class="group">
 					<label for="user" class="label">Tên Tài Khoản</label>
-					<input id="user" type="text" class="input">
+					<input id="user" type="text" class="input" placeholder="Tên Tài Khoản">
 				</div>
 				<div class="group">
-					<label for="user" class="label">Tên Tài Khoản</label>
-					<input id="user" type="email" class="input">
+					<label for="user" class="label">Email</label>
+					<input id="user" type="email" class="input" placeholder="email">
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Mật Khẩu</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<input id="pass" type="password" class="input" data-type="password" placeholder="Mật Khẩu">
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Nhập Lại Mật Khẩu</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<input id="pass" type="password" class="input" data-type="password" placeholder="Nhập Lại Mật Khẩu">
 				</div>
 				<div class="group">
 					<input type="submit" class="button" value="Sing In">

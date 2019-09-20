@@ -11,7 +11,7 @@
                 <a class="nav-link trangchu" href="{{route('trangchu')}}"><i class="fas fa-home"></i>&nbsp;Trang Chủ </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link dulich" href="#"><i class="fas fa-plane"></i>&nbsp;Du Lịch</a>
+                <a class="nav-link dulich" href="{{route('dulich')}}"><i class="fas fa-plane"></i>&nbsp;Du Lịch</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link tintuc" href="{{route('tintuc')}}"><i class="fas fa-book-open"></i>&nbsp;Tin Tức</a>

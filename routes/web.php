@@ -35,3 +35,9 @@ Route::get('/danh-sach-tour',function(){
 Route::get('/gioithieu',function(){
 	return view('page.gioithieu');
 })->name('gioithieu');
+<<<<<<< HEAD
+Route::get('/dulich',function(){
+	return view('page.dulich');
+})->name('dulich');
+=======
+>>>>>>> e3a85e8bdb4d942d650f5c34685961648f2e6899
