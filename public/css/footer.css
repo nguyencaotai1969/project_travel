@@ -73,5 +73,14 @@ section .section-title {
     background:white;
 }
 .social-btn{
-position: fixed; left: 10px; bottom: 10px; width: 60px; opacity: 1;
+position: fixed;
+ left: 10px; 
+ bottom: 10px;
+  width: 60px;
+   opacity: 1;
+z-index: 99;
+}
+.sale-tour-mien-nam{
+    margin-left:20px;
+    color: red;
 }

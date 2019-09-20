@@ -25,3 +25,6 @@ Route::get('/chitiet',function(){
 Route::get('/gioithieu',function(){
 	return view('page.gioithieu');
 })->name('gioithieu');
+Route::get('/dulich',function(){
+	return view('page.dulich');
+})->name('dulich');
