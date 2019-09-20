@@ -25,7 +25,7 @@ Route::get('/chitiet',function(){
 
 // Gắn link vào danh sách điểm đến cuối trang chủ
 Route::get('/diem-den',function(){
-	return view('tour.chi-tiet-diem-den');
+	return view('tour.chi_tiet_diem_den');
 })->name('diemden');
 
 // Gắn link vào nút xem thêm trong trang danh sách tour
@@ -35,9 +35,9 @@ Route::get('/danh-sach-tour',function(){
 Route::get('/gioithieu',function(){
 	return view('page.gioithieu');
 })->name('gioithieu');
-<<<<<<< HEAD
 Route::get('/dulich',function(){
 	return view('page.dulich');
 })->name('dulich');
-=======
->>>>>>> e3a85e8bdb4d942d650f5c34685961648f2e6899
+Route::get('/chi-tiet-tour',function(){
+	return view('tour.chitiettour');
+})->name('chitiettour');

@@ -4,9 +4,7 @@
 @include('carosel_home')
 <link rel="stylesheet" type="text/css" href="{{asset('css/tour/dstour.css')}}">
 <link href="https://fonts.googleapis.com/css?family=Baloo|Charm|IBM+Plex+Serif|Lobster|Playfair+Display&display=swap" rel="stylesheet">
-
 <link href="https://fonts.googleapis.com/css?family=Baloo|Baloo+Paaji|Charm|IBM+Plex+Serif|Lobster|Pattaya|Playfair+Display&display=swap" rel="stylesheet">
-
 <div id="content">
 	<div class="container ds-tour">
 		<h3>Tour miền Bắc</h3><br><br>
