@@ -41,3 +41,9 @@ Route::get('/dulich',function(){
 Route::get('/chi-tiet-tour',function(){
 	return view('tour.chitiettour');
 })->name('chitiettour');
+
+//admin
+
+Route::get('/login_admin',function(){
+	return view('admin.login_admin');
+})->name('loginadmin');

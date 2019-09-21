@@ -1,9 +1,10 @@
-  <link rel="stylesheet" type="text/css" href="{{asset('css/carosel.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('css/carosel.css')}}">
 <div>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('img/boats-hoi-an-lights-free-stock-photo-image-wallpaper.jpeg')}}" class="d-block w-100" alt="...">
+                <img src="{{asset('img/boats-hoi-an-lights-free-stock-photo-image-wallpaper.jpeg')}}"
+                     class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
                 <img src="{{asset('img/1736033.jpg')}}" class="d-block w-100" alt="...">
@@ -49,7 +50,8 @@
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-12 p-0">
-                    <input type="date" class="form-control search-slt" id="exampleFormControlSelect1" placeholder="Ngày khởi hành">
+                    <input type="date" class="form-control search-slt" id="exampleFormControlSelect1"
+                           placeholder="Ngày khởi hành">
                     </input>
                 </div>
                 <div class="col-lg-2 col-md-2 col-sm-12 p-0">

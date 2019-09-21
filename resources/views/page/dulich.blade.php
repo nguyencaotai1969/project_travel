@@ -18,8 +18,9 @@
                         <span class="product-new-label">-50%</span>
                     </div>
                     <div class="product-content">
-                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b> <img src="{{asset('img/hot.gif')}}"
-                                                                                    alt=""></a></h3>
+                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b> <img
+                                    src="{{asset('img/hot.gif')}}"
+                                    alt=""></a></h3>
                         <div class="price">
                             <p>5,506,000đ</p>
                             <span>1,000,200đ</p>
@@ -41,8 +42,9 @@
                         <span class="product-new-label">-50%</span>
                     </div>
                     <div class="product-content">
-                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b><img src="{{asset('img/hot.gif')}}"
-                                                                                    alt=""></a></h3>
+                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b><img
+                                    src="{{asset('img/hot.gif')}}"
+                                    alt=""></a></h3>
                         <div class="price">
                             <p>5,506,000đ</p>
                             <span>1,000,200đ</span>
@@ -66,8 +68,9 @@
                         <span class="product-new-label">-50%</span>
                     </div>
                     <div class="product-content">
-                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b> <img src="{{asset('img/hot.gif')}}"
-                                                                                    alt=""></a></h3>
+                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b> <img
+                                    src="{{asset('img/hot.gif')}}"
+                                    alt=""></a></h3>
                         <div class="price">
                             <p>5,506,000đ</p>
                             <span>1,000,200đ</span>
@@ -91,8 +94,9 @@
                         <span class="product-new-label">-50%</span>
                     </div>
                     <div class="product-content">
-                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b> <img src="{{asset('img/hot.gif')}}"
-                                                                                    alt=""></a></h3>
+                        <h3 class="title p-1"><a href="{{route('chitiettour')}}"><b>Tour Hà Giang</b> <img
+                                    src="{{asset('img/hot.gif')}}"
+                                    alt=""></a></h3>
                         <div class="price">
                             <p>5,506,000đ</p>
                             <span>1,000,200đ</span>
@@ -220,7 +224,8 @@
                         <a href="#" class="select-options"><i class="fa fa-arrow-right"></i>Đặt Tour</a>
                     </div>
                     <div class="product-content">
-                        <h3 class="title"><a href="#{{route('chitiettour')}}">Cái Bè - Vĩnh Long</a> <img src="{{asset('img/hot.gif')}}" alt="">
+                        <h3 class="title"><a href="#{{route('chitiettour')}}">Cái Bè - Vĩnh Long</a> <img
+                                src="{{asset('img/hot.gif')}}" alt="">
                         </h3>
                         <div class="price"><b>11,000,000đ</b> <span class="sale-tour-mien-nam">2,999,200đ</span></div>
                     </div>
@@ -277,7 +282,8 @@
                         <a href="#" class="select-options"><i class="fa fa-arrow-right"></i>Đặt Tour</a>
                     </div>
                     <div class="product-content">
-                        <h3 class="title"><a href="{{route('chitiettour')}}">Cái Bè - Vĩnh Long</a> <img src="{{asset('img/hot.gif')}}" alt="">
+                        <h3 class="title"><a href="{{route('chitiettour')}}">Cái Bè - Vĩnh Long</a> <img
+                                src="{{asset('img/hot.gif')}}" alt="">
                         </h3>
                         <div class="price"><b>11,000,000đ</b> <span class="sale-tour-mien-nam">2,999,200đ</span></div>
                     </div>
