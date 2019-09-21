@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.customer-logos-ourcarosel').slick({
         slidesToShow: 6,
         slidesToScroll: 2,
