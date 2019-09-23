@@ -1,6 +1,5 @@
 <?php
 
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -43,7 +42,14 @@ Route::get('/chi-tiet-tour',function(){
 })->name('chitiettour');
 
 //admin
-
 Route::get('/login_admin',function(){
-	return view('admin.login_admin');
-})->name('loginadmin');
+	return view('admin.index');
+})->name('index');
+Route::get('/login_admin/inputs',function(){
+	return view('admin.inputs');
+})->name('inputs');
+Route::get('login_admin/validation',function(){
+	return view('admin.validation');
+})->name('validation');
+
+
