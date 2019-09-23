@@ -44,10 +44,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                                                <ul class="social">
-
-
-                                                </ul>
+                
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">20%</span>
                                             </div>
@@ -77,10 +74,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                                                <ul class="social">
-
-
-                                                </ul>
+                                           
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">50%</span>
                                             </div>
@@ -110,10 +104,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                                                <ul class="social">
-
-
-                                                </ul>
+                                           
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">50%</span>
                                             </div>
@@ -144,10 +135,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                                                <ul class="social">
-
-
-                                                </ul>
+                                                
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">50%</span>
                                             </div>
@@ -183,10 +171,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                        <ul class="social">
-
-
-                                                        </ul>
+                                                      
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">20%</span>
                                                     </div>
@@ -216,10 +201,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                        <ul class="social">
-
-
-                                                        </ul>
+                                                       
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">50%</span>
                                                     </div>
@@ -249,10 +231,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                        <ul class="social">
-
-
-                                                        </ul>
+                                                    
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">50%</span>
                                                     </div>
@@ -283,10 +262,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                        <ul class="social">
-
-
-                                                        </ul>
+                                                 
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">50%</span>
                                                     </div>
@@ -320,8 +296,7 @@
             </div>
         </div>
     </div>
-    </div>
-    </div>
+
 
 
     {{-- Tour khuyến mai --}}
