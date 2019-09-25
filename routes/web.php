@@ -1,23 +1,28 @@
 <?php
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('page.trangchu');
+})->name('trangchu');
 Route::get('/master-layout', function () {
     return view('master-layout');
 });
-Route::get('/trangchu',function(){
-	return view('page.trangchu');
-})->name('trangchu');
+
+
 Route::get('/tintuc',function(){
 	return view ('page.tintuc');
 })->name('tintuc');
+
 Route::get('/login',function(){
 	return view('page.login');
 })->name('login');
+// logout user
+Route::get('/logout_user','Auth\UserController@logout')->name('logout_user');
+
+
 Route::get('/lienhe',function(){
 	return view('page.lienhe');
 })->name('lienhe');
+
 Route::get('/chitiet',function(){
 	return view('page.chitiettintuc');
 })->name('chitiet');
@@ -53,3 +58,5 @@ Route::get('login_admin/validation',function(){
 })->name('validation');
 
 
+Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
