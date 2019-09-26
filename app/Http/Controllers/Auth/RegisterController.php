@@ -7,6 +7,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
+
 class RegisterController extends Controller
 {
     /*
@@ -46,11 +48,24 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+
+        $checktoantu = [
+            'name' => ['required', 'string', 'max:255','min:6','regex:/^[a-zA-Z`]{6,255}$/'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
-        ]);
+            'password_confirmation' => ['bail','required','same:password'],
+        ];
+        $checkvalidate =[
+            'name.required'=>'Họ Và Tên Phải Lớn Hơn 6 Kí Tự',
+            'name.regex'=>'Họ Và Tên Không chứa kí tự đặc biệt',
+            'email.unique'=>'Email Đã Tồn Tại',
+            'email.required'=>'Email không xác định',
+            'email.email'=>'Email Không Đúng Định Dạng',
+            'password.min'=>'Mật Khẩu Phải Lớn Hơn 6 Kí Tự',
+            'password.confirmed'=>'Mật Khẩu Không Trùng Nhau',
+
+        ];
+        return Validator::make($data,$checktoantu,$checkvalidate);
     }
     /**
      * Create a new user instance after a valid registration.

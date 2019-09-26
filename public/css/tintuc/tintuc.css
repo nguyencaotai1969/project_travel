@@ -50,7 +50,7 @@ a {
 }
 
 .tour-gio-vang {
-    color: yellow;
+    color: #0008ff;
     padding: 16px;
     margin-bottom: -2px;
 }
@@ -61,7 +61,8 @@ a {
     position: absolute;
     margin: 0 auto;
     height: 3px;
-    background: rgba(255, 0, 82, 0.2);
+    background: rgba(7, 26, 255, 0.67);
+    border-radius: 90%;
     left: 0;
     right: 0;
     bottom: 11px;

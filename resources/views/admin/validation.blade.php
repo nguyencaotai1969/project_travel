@@ -1,269 +1,487 @@
-<!DOCTYPE html>
-<head>
-<title>Admin</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Colored Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link rel="stylesheet" href="{{asset('css/admin/bootstrap.css')}}">
-<link href="{{asset('css/admin/style.css')}}" rel='stylesheet' type='text/css'/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
-">
-    <link
-        href="https://fonts.googleapis.com/css?family=Baloo|Charm|IBM+Plex+Serif|Lobster|Playfair+Display&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css?family=Baloo|Baloo+Paaji|Charm|IBM+Plex+Serif|Lobster|Pattaya|Playfair+Display&display=swap"
-        rel="stylesheet">
-<link rel="stylesheet" href="{{asset('css/admin/font.css')}}" type="text/css"/>
-<script src="{{asset('js/admin/jquery2.0.3.min.js')}}"></script>
-<script src="{{asset('js/admin/modernizr.js')}}"></script>
-<script src="{{asset('js/admin/jquery.cookie.js')}}"></script>
-<script src="{{asset('js/admin/jquery.cookie.js')}}"></script>
-<script src="{{asset('js/admin/raphael-min.js')}}"></script>
-<script src="{{asset('js/admin/morris.js')}}"></script>
-<link rel="stylesheet" href="{{asset('css/admin/morris.css')}}">
-<script src="{{asset('js/admin/skycons.js')}}"></script>
-<!--//skycons-icons-->
-</head>
-<body class="dashboard-page">
-@include('admin.header.header_left')	
+@extends('admin.layout-master')
+@section('content')
 
-	<section class="wrapper scrollable">
-		<nav class="user-menu">
-			<a href="javascript:;" class="main-menu-access">
-			<i class="icon-proton-logo"></i>
-			<i class="icon-reorder"></i>
-			</a>
-		</nav>
-@include('admin.header.header_top')
-<div class="main-grid">
-			<div class="agile-grids">	
-				<!-- validation -->
-				<div class="grids">
-					<div class="progressbar-heading grids-heading">
-						<h2>Validation Forms</h2>
-					</div>
-					
-					<div class="forms-grids">
-						<div class="w3agile-validation">
-							<div class="panel panel-widget agile-validation">
-								<div class="my-div">
-									<form method="post" action="#" class="valida" autocomplete="off" novalidate="novalidate">
+<section class="wrapper scrollable">
+    <nav class="user-menu">
+        <a href="javascript:;" class="main-menu-access">
+            <i class="icon-proton-logo"></i>
+            <i class="icon-reorder"></i>
+        </a>
+    </nav>
+    <div class="main-grid">
+        <div class="agile-grids">
+            <!-- input-forms -->
+            <div class="grids">
+                <div class="progressbar-heading grids-heading">
+                    <h2>Input Forms</h2>
+                </div>
+                <div class="panel panel-widget forms-panel">
+                    <div class="forms">
+                        <div class="form-grids widget-shadow" data-example-id="basic-forms">
+                            <div class="form-title">
+                                <h4>Basic Form :</h4>
+                            </div>
+                            <div class="form-body">
+                                <form action="#" method="post">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                                               placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" name="password" class="form-control"
+                                               id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputFile">File input</label>
+                                        <input type="file" id="exampleInputFile">
+                                        <p class="help-block">Example block-level help text here.</p>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label> <input type="checkbox"> Check me out </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-default w3ls-button">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										<div class="input-info">
-											<h3>Input Texts:</h3>
-										</div>
+                <div class="panel panel-widget forms-panel">
+                    <div class="forms">
+                        <div class=" form-grids form-grids-right">
+                            <div class="widget-shadow " data-example-id="basic-forms">
+                                <div class="form-title">
+                                    <h4>Horizontal form :</h4>
+                                </div>
+                                <div class="form-body">
+                                    <form class="form-horizontal" action="#" method="post">
+                                        <div class="form-group">
+                                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                            <div class="col-sm-9">
+                                                <input type="email" name="email" class="form-control" id="inputEmail3"
+                                                       placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                            <div class="col-sm-9">
+                                                <input type="password" name="password" class="form-control"
+                                                       id="inputPassword3" placeholder="Password">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <div class="checkbox">
+                                                    <label> <input type="checkbox"> Remember me </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-offset-2">
+                                            <button type="submit" class="btn btn-default w3ls-button">Sign in</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										<label for="field-1">Field 1.1: (required)&nbsp;<span class="at-required-highlight">*</span></label>
-										<div class="form-group">
-											<input type="text" name="field-1" id="field-1" required="true" class="form-control">
-										</div>
+                <div class="panel panel-widget forms-panel">
+                    <div class="forms">
+                        <div class="inline-form widget-shadow">
+                            <div class="form-title">
+                                <h4>Inline form Example 1 :</h4>
+                            </div>
+                            <div class="form-body">
+                                <div data-example-id="simple-form-inline">
+                                    <form class="form-inline" action="#" method="post">
+                                        <div class="form-group"><input type="email" name="email" class="form-control"
+                                                                       id="exampleInputEmail3" placeholder="Email">
+                                        </div>
+                                        <div class="form-group"><input type="password" name="password"
+                                                                       class="form-control" id="exampleInputPassword3"
+                                                                       placeholder="Password"></div>
+                                        <div class="checkbox"><label> <input type="checkbox"> Remember me </label></div>
+                                        <button type="submit" class="btn btn-default w3ls-button">Sign in</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-										<label for="field-1-2">Field 1.2: (not required, filter: date)</label>
-										<div class="form-group">
-											<input type="text" name="field-1-2" id="field-1-2" filter="date" class="form-control" data-invalid="Given value must be a valid date formated as 0000-00-00">
-										</div>
+                <div class="panel panel-widget forms-panel">
+                    <div class="forms">
+                        <div class="form-two widget-shadow">
+                            <div class="form-title">
+                                <h4>Inline form Example 2 :</h4>
+                            </div>
+                            <div class="form-body" data-example-id="simple-form-inline">
+                                <form class="form-inline" action="#" method="post">
+                                    <div class="form-group"><label for="exampleInputName2">Name</label> <input
+                                            type="text" name="your name" class="form-control" id="exampleInputName2"
+                                            placeholder="Your name"></div>
+                                    <div class="form-group"><label for="exampleInputEmail2">Email</label> <input
+                                            type="email" name="email" class="form-control" id="exampleInputEmail2"
+                                            placeholder="mail.abc@example.com"></div>
+                                    <button type="submit" class="btn btn-default w3ls-button">Send invitation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-widget forms-panel">
+                    <div class="progressbar-heading general-heading">
+                        <h4>General Form :</h4>
+                    </div>
+                    <div class="forms">
+                        <h3 class="title1"></h3>
+                        <div class="form-three widget-shadow">
+                            <form class="form-horizontal" action="#" method="post">
+                                <div class="form-group">
+                                    <label for="focusedinput" class="col-sm-2 control-label">Focused Input</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control1" name="Default Input" id="focusedinput"
+                                               placeholder="Default Input">
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <p class="help-block">Your help text!</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="disabledinput" class="col-sm-2 control-label">Disabled Input</label>
+                                    <div class="col-sm-8">
+                                        <input disabled="" type="text" name="Disabled Input" class="form-control1"
+                                               id="disabledinput" placeholder="Disabled Input">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                                    <div class="col-sm-8">
+                                        <input type="password" class="form-control1" id="inputPassword"
+                                               placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="checkbox" class="col-sm-2 control-label">Checkbox</label>
+                                    <div class="col-sm-8">
+                                        <div class="checkbox-inline1"><label><input type="checkbox"> Unchecked</label>
+                                        </div>
+                                        <div class="checkbox-inline1"><label><input type="checkbox" checked=""> Checked</label>
+                                        </div>
+                                        <div class="checkbox-inline1"><label><input type="checkbox" disabled="">
+                                                Disabled Unchecked</label></div>
+                                        <div class="checkbox-inline1"><label><input type="checkbox" disabled=""
+                                                                                    checked=""> Disabled Checked</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="checkbox" class="col-sm-2 control-label">Checkbox Inline</label>
+                                    <div class="col-sm-8">
+                                        <div class="checkbox-inline"><label><input type="checkbox"> Unchecked</label>
+                                        </div>
+                                        <div class="checkbox-inline"><label><input type="checkbox" checked="">
+                                                Checked</label></div>
+                                        <div class="checkbox-inline"><label><input type="checkbox" disabled=""> Disabled
+                                                Unchecked</label></div>
+                                        <div class="checkbox-inline"><label><input type="checkbox" disabled=""
+                                                                                   checked=""> Disabled Checked</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="selector1" class="col-sm-2 control-label">Dropdown Select</label>
+                                    <div class="col-sm-8"><select name="selector1" id="selector1" class="form-control1">
+                                            <option>Lorem ipsum dolor sit amet.</option>
+                                            <option>Dolore, ab unde modi est!</option>
+                                            <option>Illum, fuga minus sit eaque.</option>
+                                            <option>Consequatur ducimus maiores voluptatum minima.</option>
+                                        </select></div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Multiple Select</label>
+                                    <div class="col-sm-8">
+                                        <select multiple="" class="form-control1">
+                                            <option>Option 1</option>
+                                            <option>Option 2</option>
+                                            <option>Option 3</option>
+                                            <option>Option 4</option>
+                                            <option>Option 5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="txtarea1" class="col-sm-2 control-label">Textarea</label>
+                                    <div class="col-sm-8"><textarea name="txtarea1" id="txtarea1" cols="50" rows="4"
+                                                                    class="form-control1"></textarea></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="radio" class="col-sm-2 control-label">Radio</label>
+                                    <div class="col-sm-8">
+                                        <div class="radio block"><label><input type="radio"> Unchecked</label></div>
+                                        <div class="radio block"><label><input type="radio" checked=""> Checked</label>
+                                        </div>
+                                        <div class="radio block"><label><input type="radio" disabled=""> Disabled
+                                                Unchecked</label></div>
+                                        <div class="radio block"><label><input type="radio" disabled="" checked="">
+                                                Disabled Checked</label></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="radio" class="col-sm-2 control-label">Radio Inline</label>
+                                    <div class="col-sm-8">
+                                        <div class="radio-inline"><label><input type="radio"> Unchecked</label></div>
+                                        <div class="radio-inline"><label><input type="radio" checked=""> Checked</label>
+                                        </div>
+                                        <div class="radio-inline"><label><input type="radio" disabled=""> Disabled
+                                                Unchecked</label></div>
+                                        <div class="radio-inline"><label><input type="radio" disabled="" checked="">
+                                                Disabled Checked</label></div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="smallinput" class="col-sm-2 control-label label-input-sm">Small
+                                        Input</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control1 input-sm" id="smallinput"
+                                               placeholder="Small Input">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mediuminput" class="col-sm-2 control-label">Medium Input</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control1" id="mediuminput"
+                                               placeholder="Medium Input">
+                                    </div>
+                                </div>
+                                <div class="form-group mb-n">
+                                    <label for="largeinput" class="col-sm-2 control-label label-input-lg">Large
+                                        Input</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control1 input-lg" id="largeinput"
+                                               placeholder="Large Input">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-widget forms-panel">
+                    <div class="progressbar-heading general-heading">
+                        <h4>General Form :</h4>
+                    </div>
+                    <div class="forms">
+                        <div class="form-three widget-shadow">
+                            <div data-example-id="form-validation-states-with-icons">
+                                <form action="#" method="post">
+                                    <div class="form-group has-success has-feedback"><label class="control-label"
+                                                                                            for="inputSuccess2">Input
+                                            with success</label> <input type="text" class="form-control"
+                                                                        id="inputSuccess2"
+                                                                        aria-describedby="inputSuccess2Status"> <span
+                                            class="glyphicon glyphicon-ok form-control-feedback"
+                                            aria-hidden="true"></span> <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                                    </div>
+                                    <div class="form-group has-warning has-feedback"><label class="control-label"
+                                                                                            for="inputWarning2">Input
+                                            with warning</label> <input type="text" class="form-control"
+                                                                        id="inputWarning2"
+                                                                        aria-describedby="inputWarning2Status"> <span
+                                            class="glyphicon glyphicon-warning-sign form-control-feedback"
+                                            aria-hidden="true"></span> <span id="inputWarning2Status" class="sr-only">(warning)</span>
+                                    </div>
+                                    <div class="form-group has-error has-feedback"><label class="control-label"
+                                                                                          for="inputError2">Input with
+                                            error</label>
+                                        <input type="text" class="form-control" id="inputError2"
+                                               aria-describedby="inputError2Status">
+                                        <span
+                                            class="glyphicon glyphicon-remove form-control-feedback"
+                                            aria-hidden="true"></span>
+                                        <span id="inputError2Status" class="sr-only">(error)</span>
+                                    </div>
+                                    <div class="form-group has-success has-feedback"><label class="control-label"
+                                                                                            for="inputGroupSuccess1">Input
+                                            group with success</label>
+                                        <div class="input-group"><span class="input-group-addon">@</span> <input
+                                                type="text" class="form-control" id="inputGroupSuccess1"
+                                                aria-describedby="inputGroupSuccess1Status"></div>
+                                        <span class="glyphicon glyphicon-ok form-control-feedback"
+                                              aria-hidden="true"></span> <span id="inputGroupSuccess1Status"
+                                                                               class="sr-only">(success)</span></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-widget forms-panel w3-last-form">
+                    <div class="forms">
+                        <div class="form-three widget-shadow">
+                            <div class=" panel-body-inputin">
+                                <form class="form-horizontal" action="#" method="post">
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Email Address</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group">
+													<span class="input-group-addon">
+														<i class="fa fa-envelope-o"></i>
+													</span>
+                                                <input type="text" class="form-control1" placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Password</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group">
+													<span class="input-group-addon">
+														<i class="fa fa-key"></i>
+													</span>
+                                                <input type="password" class="form-control1" id="exampleInputPassword1"
+                                                       placeholder="Password">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Email Address</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group input-icon right">
+													<span class="input-group-addon">
+														<i class="fa fa-envelope-o"></i>
+													</span>
+                                                <input id="email" class="form-control1" type="text"
+                                                       placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p class="help-block">With tooltip</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Password</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group input-icon right">
+													<span class="input-group-addon">
+														<i class="fa fa-key"></i>
+													</span>
+                                                <input type="password" class="form-control1" placeholder="Password">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p class="help-block">With tooltip</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-success">
+                                        <label class="col-md-2 control-label">Input Addon Success</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group input-icon right">
+													<span class="input-group-addon">
+														<i class="fa fa-envelope-o"></i>
+													</span>
+                                                <input id="email" class="form-control1" type="text"
+                                                       placeholder="Email Address">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p class="help-block">Email is valid!</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-error">
+                                        <label class="col-md-2 control-label">Input Addon Error</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group input-icon right">
+													<span class="input-group-addon">
+														<i class="fa fa-key"></i>
+													</span>
+                                                <input type="password" class="form-control1" placeholder="Password">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p class="help-block">Error!</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Checkbox Addon</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><input type="checkbox"></div>
+                                                <input type="text" class="form-control1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Checkbox Addon</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control1">
+                                                <div class="input-group-addon"><input type="checkbox"></div>
 
-										<label for="field-1-3">Field 1.3: (required, filter: greater_than:10|less_than:15)&nbsp;<span class="at-required-highlight">*</span></label>
-										<div class="form-group">
-											<input type="text" name="field-1-3" id="field-1-3" required="true" filter="greater_than:10|less_than:15" class="form-control" data-required="Given value must be between 10 and 15">
-										</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p class="help-block">Checkbox on right</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Radio Addon</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><input type="radio"></div>
+                                                <input type="text" class="form-control1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Radio Addon</label>
+                                        <div class="col-md-8">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control1">
+                                                <div class="input-group-addon"><input type="radio"></div>
 
-										<div class="row">
-
-											<div class="col-xs-12 col-sm-5">
-
-												<label for="field-1-2">Field 1.4.1: (required, filter: email)</label>
-												<div class="form-group">
-													<input type="text" name="field-1-4-1" id="field-1-4-1" filter="email" class="form-control" required="true" data-invalid="Must be a valid email address">
-												</div>
-
-											</div>
-
-											<div class="col-xs-12 col-sm-7">
-
-												<label for="field-1-2">Field 1.4.2: (required, filter: email|matches:field-1-4-1)</label>
-												<div class="form-group">
-													<input type="text" name="field-1-4-2" id="field-1-4-2" filter="email|matches:field-1-4-1" class="form-control" required="true" data-invalid="Must be a valid email address and match field 1.4.1's value">
-												</div>
-
-											</div>
-
-										</div>
-
-										<hr>
-
-										<h4>SELECTS:</h4>
-
-										<label for="field-2">Field 2: (required)&nbsp;<span class="at-required-highlight">*</span></label>
-										<div class="form-group">
-											<select name="field-2" id="field-2" required="true" class="form-control">
-												<option value=""></option>
-												<option value="val-1">Value 1</option>
-												<option value="val-2">Value 2</option>
-											</select>
-										</div>
-
-										<hr>
-
-										<h4>TEXTAREAS:</h4>
-
-										<label for="field-4">Field 4.1: (required)&nbsp;<span class="at-required-highlight">*</span></label>
-										<div class="form-group">
-											<textarea name="field-4" id="field-4" required="true" class="form-control"></textarea>
-										</div>
-
-										<label for="field-4-2">Field 4.2: (required, maxlength: 10)&nbsp;<span class="at-required-highlight">*</span></label>
-										<div class="form-group">
-											<textarea name="field-4-2" id="field-4-2" required="true" maxlength="10" class="form-control"></textarea><div class="help-block at-description">Typed <span class="at-counter">0</span> of 10</div>
-										</div>
-
-										<hr>
-
-										<p>
-											<input type="submit" name="sub-1" value="Submit" class="btn btn-primary">
-											<input type="reset" name="res-1" id="res-1" value="Reset" class="btn btn-danger">
-											<input type="button" name="but-1" value="Button 1" class="btn btn-default">
-										</p>
-									</form>
-								</div>
-							</div>
-						</div>
-						
-						<div class="w3agile-validation w3ls-validation">
-							<div class="panel panel-widget agile-validation">
-								<div class="validation-grids widget-shadow" data-example-id="basic-forms"> 
-									<div class="input-info">
-										<h3>Register Form :</h3>
-									</div>
-									<div class="form-body form-body-info">
-										<form data-toggle="validator" novalidate="true" action="#" method="post">
-											<div class="form-group valid-form">
-												<input type="text" class="form-control" id="inputName" placeholder="Username" required="">
-											</div>
-											<div class="form-group has-feedback">
-												<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required="">
-												<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-												<span class="help-block with-errors">Please enter a valid email address</span>
-											</div>
-											<div class="form-group">
-											  <input type="password" data-toggle="validator" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required="">
-											  <span class="help-block">Minimum of 6 characters</span>
-											</div>
-											<div class="form-group">
-											  <input type="password" class="form-control" id="inputPasswordConfirm" data-match="#inputPassword" data-match-error="Whoops, these don't match" placeholder="Confirm password" required="">
-											  <div class="help-block with-errors"></div>
-											</div>
-											<div class="form-group">
-												<div class="radio">
-													<label>
-													  <input type="radio" name="gender" required="">
-													  Female
-													</label>
-												</div>
-												<div class="radio">
-													<label>
-													<input type="radio" name="gender" required="">
-													Male
-													</label>
-												</div>
-											</div>
-											<div class="form-group">
-												<div class="checkbox">
-													<label>
-														<input type="checkbox" id="terms" data-error="Before you wreck yourself" required="">
-														I have read and accept terms of use.
-													</label>
-													<div class="help-block with-errors"></div>
-												</div>
-											</div>
-											<div class="form-group">
-												<button type="submit" class="btn btn-primary disabled">Submit</button>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-							
-							<div class="panel panel-widget agile-validation">
-								<div class="validation-grids validation-grids-right">
-									<div class="widget-shadow login-form-shadow" data-example-id="basic-forms"> 
-										<div class="input-info">
-											<h3>Login form :</h3>
-										</div>
-										<div class="form-body form-body-info">
-											<form data-toggle="validator" novalidate="true" action="#" method="post">
-												<div class="form-group has-feedback">
-													<input type="email" class="form-control" id="inputEmail" placeholder="Enter Your Email" data-error="Bruh, that email address is invalid" required="">
-													<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-												</div>
-												<div class="form-group">
-													<input type="password" data-toggle="validator" data-minlength="6" class="form-control" id="inputPassword" placeholder="Password" required="">
-												</div>
-												<div class="bottom">
-													<div class="form-group">
-														<div class="checkbox">
-															<label>
-																<input type="checkbox" id="terms" data-error="Before you wreck yourself" required="">
-																Remember me
-															</label>
-															<div class="help-block with-errors"></div>
-														</div>
-													</div>
-													<div class="form-group">
-														<button type="submit" class="btn btn-primary disabled">Login</button>
-													</div>
-													<div class="clearfix"> </div>
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-widget agile-validation w3ls-validate">
-								<div class="inline-form widget-shadow agile-widget-shadow">
-									<div class="input-info">
-										<h3>Recover form :</h3>
-									</div>
-									<div class="form-body form-body-info">
-										<form data-toggle="validator" novalidate="true" action="#" method="post">
-											<div class="form-group has-feedback">
-												<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Bruh, that email address is invalid" required="">
-												<span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-											</div>
-											<div class="form-group">
-												<input type="text" data-toggle="validator" data-minlength="6" class="form-control" id="inputPassword" placeholder="Enter your phone number" required="">
-											</div>
-											<div class="bottom">
-												<div class="form-group recover-button">
-													<button type="submit" class="btn btn-primary disabled">Login</button>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<!-- //validation -->
-			</div>
-		</div>
-		<!-- footer -->
-		<!-- //footer -->
-	</section>
-	<script src="{{asset('js/admin/bootstrap.js')}}"></script>
-	<script src="{{asset('js/admin/proton.js')}}"></script>
-	<script>
-	        var theme = $.cookie('protonTheme') || 'default';
-	        $('body').removeClass (function (index, css) {
-	            return (css.match (/\btheme-\S+/g) || []).join(' ');
-	        });
-	        if (theme !== 'default') $('body').addClass(theme);
-        </script>
-</body>
-</html>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p class="help-block">Radio on right</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Input Processing</label>
+                                        <div class="col-md-8">
+                                            <div class="input-icon right spinner">
+                                                <i class="fa fa-fw fa-spin fa-spinner"></i>
+                                                <input id="email" class="form-control1" type="text"
+                                                       placeholder="Processing...">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <p class="help-block">Processing right</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-2 control-label">Static Paragraph</label>
+                                        <div class="col-md-8">
+                                            <p class="form-control1 m-n">email@example.com</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-n">
+                                        <label class="col-md-2 control-label">Readonly</label>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control1" placeholder="Readonly" readonly="">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //input-forms -->
+        </div>
+    </div>
+    <!-- footer -->
+    <!-- //footer -->
+</section>
+		@endsection

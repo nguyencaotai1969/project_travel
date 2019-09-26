@@ -29,11 +29,11 @@
                 </li>
                 @guest
                     <li class="nav-item ">
-                        <a class="nav-link lienhe" href="{{route('login')}}"><i class="fas fa-sign-in-alt"></i>&nbsp;Đăng Nhập</a>
+                        <a class="nav-link" href="{{route('login')}}"><i class="fas fa-sign-in-alt"></i>&nbsp;Đăng Nhập</a>
                     </li>
                 @else
                     <li class="nav-item ">
-                        <a class="nav-link lienhe" href="{{ route('logout_user') }}"><i class="fas fa-sign-out-alt"></i>&nbsp;Đăng Xuất</a>
+                        <a class="nav-link" href="{{ route('logout_user') }}"><i class="fas fa-sign-out-alt"></i>&nbsp;Đăng Xuất</a>
                     </li>
                 @endguest
             </ul>
