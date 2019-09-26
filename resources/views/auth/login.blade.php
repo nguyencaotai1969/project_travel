@@ -67,8 +67,8 @@
                   @csrf
                 <div class="for-pwd-htm">
                     <div class="group">
-                        <label for="user" class="label">Tên Tài Khoản</label>
-                        <input id="user" type="text" class="input form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus placeholder="Tên Tài Khoản">
+                        <label for="user" class="label">Họ Và Tên</label>
+                        <input id="user" type="text" class="input form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus placeholder="Họ Và Tên">
 
                                 @if ($errors->has('name'))
                                     <span class="invalid-feedback" role="alert">

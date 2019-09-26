@@ -1,5 +1,5 @@
-	<section class="title-bar">
-			<div class="logo">
+	<section class="title-bar" style="z-index: 9 !important">
+			<div class="logo" style="display: none;">
 				<h1><a href="{{route('trangchu')}}"><img src="{{asset('img/logo.png')}}" alt="" /></a></h1>
 			</div>
 			<div class="w3l_search">

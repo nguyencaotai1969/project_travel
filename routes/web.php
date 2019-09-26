@@ -3,10 +3,13 @@
 Route::get('/', function () {
     return view('page.trangchu');
 })->name('trangchu');
+
+
+
+
 Route::get('/master-layout', function () {
     return view('master-layout');
 });
-
 
 Route::get('/tintuc',function(){
 	return view ('page.tintuc');
@@ -46,16 +49,36 @@ Route::get('/chi-tiet-tour',function(){
 	return view('tour.chitiettour');
 })->name('chitiettour');
 
+
+
+
+route::get('/ckeditordsad',function(){
+	return view('admin.ckeditor');
+});
 //admin
-Route::get('/login_admin',function(){
+Route::group(['prefix' => 'admin'], function () {
+    /*
+     * Admin đăng nhập
+     */
+Route::get('/',function(){
 	return view('admin.index');
 })->name('index');
-Route::get('/login_admin/inputs',function(){
+Route::get('/inputs',function(){
 	return view('admin.inputs');
 })->name('inputs');
-Route::get('login_admin/validation',function(){
+Route::get('/validation',function(){
 	return view('admin.validation');
 })->name('validation');
+    /*
+     * Admin đăng xuất
+     */
+});
+
+
+
+
+
+
 
 
 Auth::routes();

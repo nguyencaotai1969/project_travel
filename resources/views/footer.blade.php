@@ -8,7 +8,7 @@
 
             <div class=" col-md-4">
                 <div>
-                    <img src="{{asset('img/logo.png')}}" width="250" height="70" alt="">
+                    <a href="{{route('trangchu')}}"><img src="{{asset('img/logo.png')}}" width="50%" alt="Trang Chủ Du Lịch"></a>
                 </div>
                 <br>
                 <ul class="list-unstyled quick-links">
@@ -37,7 +37,7 @@
                         </a></li>
                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Điều Khoản Quy Định Của
                             Công ty</a></li>
-                    <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i
+                    <li><a href="javascript:void();" title="Design and developed by"><i
                                 class="fa fa-angle-double-right"></i>Chính Sách Bảo Mật Của Công Ty</a></li>
             </div>
             <div class="col-md-4">
@@ -57,10 +57,13 @@
                         </a>
                     </li>
                     </li>
-                    <li><a href="javascript:void();"><b>Các Hệ Thống Ngân Hàng</b>
-
-                        </a></li>
-                    <li><a href="javascript:void();"><img src="https://tourdulich.org.vn/images/icon_bank.png" alt="">
+                    <li>
+                        <a href="javascript:void();"><b>Các Hệ Thống Ngân Hàng</b>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void();">
+                            <b><img src="{{asset('img/logo_doitac/logobank.png')}}"   width="71%"  alt=""></b>
                         </a></li>
                 </ul>
             </div>

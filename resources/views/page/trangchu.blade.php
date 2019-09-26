@@ -18,13 +18,13 @@
                     <div class="next-back">
                     <span>
                         <a data-slide="prev" href="#Carousel" class="left carousel-control"><img
-                                src="http://www.sclance.com/pngs/back-button-png/back_button_png_77116.png" width="20"
+                                src="{{asset('img/back_botton.png')}}" width="24"
                                 alt="">
                         </a>
                     </span>
                         <span>
                         <a data-slide="next" href="#Carousel" class="right carousel-control"><img
-                                src="http://pluspng.com/img-png/next-button-png-open-2000.png" width="20" alt="">
+                                src="{{asset('img/next_botton.png')}}" width="20" alt="">
                         </a>
                     </span>
                     </div>
@@ -44,7 +44,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                
+
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">20%</span>
                                             </div>
@@ -74,7 +74,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                                           
+
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">50%</span>
                                             </div>
@@ -104,7 +104,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                                           
+
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">50%</span>
                                             </div>
@@ -135,7 +135,7 @@
                                                     <img class="pic-2"
                                                          src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                 </a>
-                                                
+
                                                 <span class="product-new-label demo"></span>
                                                 <span class="product-discount-label">50%</span>
                                             </div>
@@ -171,7 +171,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                      
+
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">20%</span>
                                                     </div>
@@ -201,7 +201,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                       
+
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">50%</span>
                                                     </div>
@@ -231,7 +231,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                    
+
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">50%</span>
                                                     </div>
@@ -262,7 +262,7 @@
                                                             <img class="pic-2"
                                                                  src="https://travel.com.vn/Content/ThemeHe/img/dd1.jpg">
                                                         </a>
-                                                 
+
                                                         <span class="product-new-label demo"></span>
                                                         <span class="product-discount-label">50%</span>
                                                     </div>
@@ -435,16 +435,16 @@
     <div class="container">
         <h2 class="text-center tour-gio-vang">Đối Tác Của Chúng Tôi</h2>
         <section class="customer-logos-ourcarosel slider">
-            <div class="slide"><img src="http://cdn07.happymobile.vn/media/images/2018/01/y-nghia-logo-samsung-2.jpg">
+            <div class="slide"><img src="{{asset('img/logo_doitac/1.jpg')}}">
             </div>
-            <div class="slide"><img src="https://thietkelogo.vn/wp-content/uploads/2017/10/logo-21.jpg"></div>
-            <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/vi/7/7c/Techcombank_logo.png"></div>
+            <div class="slide"><img src="{{asset('img/logo_doitac/2.jpg')}}"></div>
+            <div class="slide"><img src="{{asset('img/logo_doitac/3.png')}}"></div>
             <div class="slide"><img
-                    src="https://thietkelogodeponlinetructuyen.files.wordpress.com/2016/12/logo-htv.png?w=1400"></div>
-            <div class="slide"><img src="https://upload.wikimedia.org/wikipedia/vi/7/79/BIDV_Logo.png"></div>
+                    src="{{asset('img/logo_doitac/4.png')}}"></div>
+            <div class="slide"><img src="{{asset('img/logo_doitac/5.png')}}"></div>
             <div class="slide"><img
-                    src="https://brandslogo.net/wp-content/uploads/2018/04/Bamboo-Airways-logo-vector.png"></div>
-            <div class="slide"><img src="https://image.vietstock.vn/2012/02/13/55441.jpg"></div>
+                    src="{{asset('img/logo_doitac/6.png')}}"></div>
+                <div class="slide"><img src="{{asset('img/logo_doitac/7.jpg')}}"></div>
         </section>
 
     </div>
