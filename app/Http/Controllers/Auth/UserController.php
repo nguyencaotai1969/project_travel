@@ -15,6 +15,6 @@ class UserController extends Controller
     {
         Auth::guard('web')->logout();
         // chuyển hướng về trang login của admin
-        return redirect()->back()->with('thongbao', 'Đăng xuất thành công');
+        return redirect()->back();
     }
 }

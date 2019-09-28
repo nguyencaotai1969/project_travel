@@ -484,4 +484,4 @@
     <!-- footer -->
     <!-- //footer -->
 </section>
-		@endsection
+@endsection

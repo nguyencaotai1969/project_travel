@@ -51,7 +51,7 @@ class RegisterController extends Controller
 
         $checktoantu = [
             'name' => ['required', 'string', 'max:255','min:6','regex:/^[a-zA-Z`]{6,255}$/'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'email' => ['required', 'string', 'email','min:8', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
             'password_confirmation' => ['bail','required','same:password'],
         ];
@@ -65,7 +65,9 @@ class RegisterController extends Controller
             'password.confirmed'=>'Mật Khẩu Không Trùng Nhau',
 
         ];
-        return Validator::make($data,$checktoantu,$checkvalidate);
+   // dd($data);
+    // die();
+     return Validator::make($data,$checktoantu,$checkvalidate);
     }
     /**
      * Create a new user instance after a valid registration.
