@@ -7,19 +7,19 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
-        config.filebrowserBrowseUrl = '/lab/ckeditor-cfinder/elfinder/for_ckeditor.html?mode=file';
-        config.filebrowserImageBrowseUrl = '/lab/ckeditor-cfinder/elfinder/for_ckeditor.html?mode=image';
+        config.filebrowserBrowseUrl = '/project_travel/public/ckeditor/elfinder/elfinder.html';
+        config.filebrowserImageBrowseUrl = '/project_travel/public/ckeditor/elfinder/elfinder.html';
         //config.filebrowserFlashBrowseUrl = '/pathToElfinder/elfinder.html?mode=flash';
         config.filebrowserWindowHeight = 520;
         config.filebrowserWindowWidth = 800;
-        
+
         // remove resize able:
         config.removePlugins = 'elementspath';
         config.resize_enabled = false;
         //config.removeButtons = 'Underline';
         //neu dung full --> khong can set toolbar
         //config.toolbar = 'SmallToolbar';
- 
+
 //	config.toolbar_SmallToolbar =
 //	[
 //                { name: 'basicstyles', items : [ 'Bold','Italic','Underline','Strike','-','RemoveFormat' ] },
@@ -27,6 +27,6 @@ CKEDITOR.editorConfig = function( config ) {
 //		{ name: 'insert', items : [ 'Image','Flash','Table','HorizontalRule','Smiley','SpecialChar','PageBreak','Iframe' ] },
 //		{ name: 'paragraph', items : [ 'NumberedList','BulletedList','-','Outdent','Indent','-','Blockquote' ] },
 //		{ name: 'links', items : [ 'Link','Unlink','Anchor' ] },
-//	]; 
-          
+//	];
+
 };

@@ -111,26 +111,7 @@
                     </div>
                 </div>
 
-                <div class="panel panel-widget forms-panel">
-                    <div class="forms">
-                        <div class="form-two widget-shadow">
-                            <div class="form-title">
-                                <h4>Inline form Example 2 :</h4>
-                            </div>
-                            <div class="form-body" data-example-id="simple-form-inline">
-                                <form class="form-inline" action="#" method="post">
-                                    <div class="form-group"><label for="exampleInputName2">Name</label> <input
-                                            type="text" name="your name" class="form-control" id="exampleInputName2"
-                                            placeholder="Your name"></div>
-                                    <div class="form-group"><label for="exampleInputEmail2">Email</label> <input
-                                            type="email" name="email" class="form-control" id="exampleInputEmail2"
-                                            placeholder="mail.abc@example.com"></div>
-                                    <button type="submit" class="btn btn-default w3ls-button">Send invitation</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="panel panel-widget forms-panel">
                     <div class="progressbar-heading general-heading">
                         <h4>General Form :</h4>
@@ -268,11 +249,20 @@
                         </div>
                     </div>
                 </div>
-                           </div>
+                <form method="post" action="">
+                <textarea name="content">
+                </textarea>
+                <input type="file" name="">
+                <br>
+                <input type="submit" class="btn-primary btn" value="Send"  name="">
+                </form>
+            </div>
             <!-- //input-forms -->
         </div>
     </div>
     <!-- footer -->
+
+
     <!-- //footer -->
 </section>
 @endsection

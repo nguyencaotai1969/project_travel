@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('bootstrap/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="{{asset('css/css.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
 ">
     <link
@@ -28,7 +28,7 @@
 <script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
 <link rel="stylesheet" href="{{asset('js/footer.js')}}">
 <script type="text/javascript" src="{{asset('js/footer.js')}}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script type="text/javascript" src="{{asset('js/slick/slick.js')}}"></script>
 @yield('js')
 </body>
 </html>

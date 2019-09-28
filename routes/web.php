@@ -15,9 +15,8 @@ Route::get('/tintuc',function(){
 	return view ('page.tintuc');
 })->name('tintuc');
 
-Route::get('/login',function(){
-	return view('page.login');
-})->name('login');
+Route::get('login','Auth\LoginController@login')->name('login');
+
 // logout user
 Route::get('/logout_user','Auth\UserController@logout')->name('logout_user');
 
@@ -52,9 +51,6 @@ Route::get('/chi-tiet-tour',function(){
 
 
 
-route::get('/ckeditordsad',function(){
-	return view('admin.ckeditor');
-});
 //admin
 Route::group(['prefix' => 'admin'], function () {
     /*
@@ -69,9 +65,7 @@ Route::get('/inputs',function(){
 Route::get('/validation',function(){
 	return view('admin.validation');
 })->name('validation');
-    /*
-     * Admin đăng xuất
-     */
+
 });
 
 
