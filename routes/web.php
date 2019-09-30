@@ -7,9 +7,9 @@ Route::get('/', function () {
 
 
 
-Route::get('/master-layout', function () {
-    return view('master-layout');
-});
+// Route::get('/master-layout', function () {
+//     return view('master-layout');
+// });
 
 Route::get('/tintuc',function(){
 	return view ('page.tintuc');
@@ -67,13 +67,6 @@ Route::get('/validation',function(){
 })->name('validation');
 
 });
-
-
-
-
-
-
-
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
