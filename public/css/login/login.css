@@ -258,3 +258,6 @@ a {
 .cursor {
     cursor: pointer;
 }
+.form-control{
+    border-radius: 25px !important;
+}

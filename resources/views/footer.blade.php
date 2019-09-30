@@ -20,7 +20,6 @@
                                 Trường, Đà Nẵng</b></a></li>
                     <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Hồ Chí Minh : <b>46/45 Quận
                                 7 ,Hồ Chí Minh</b></a></li>
-
                 </ul>
             </div>
             <div class=" col-md-4">

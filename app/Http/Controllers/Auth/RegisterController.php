@@ -54,7 +54,7 @@ class RegisterController extends Controller
             'email' => ['required', 'string', 'email','min:8', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
             'password_confirmation' => ['bail','required','same:password'],
-        ];
+        ]; 
         $checkvalidate =[
             'name.required'=>'Họ Và Tên Phải Lớn Hơn 6 Kí Tự',
             'name.regex'=>'Họ Và Tên Không chứa kí tự đặc biệt',
